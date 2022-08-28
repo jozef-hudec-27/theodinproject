@@ -20,3 +20,5 @@ module Theodinproject
     config.middleware.insert_after ActionDispatch::Static, Rack::Deflater
   end
 end
+
+puts 'THIS IS ABSOLUTELY USELESS'
